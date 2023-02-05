@@ -1,7 +1,7 @@
 <?php
 
 require_once 'vendor/autoload.php';
-require_once '/config/secrets.php';
+require_once '/home/u327334328/domains/headshotai.studio/config/secrets.php';
 
 \Stripe\Stripe::setApiKey($stripeSecretKey);
 header('Content-Type: application/json');
