@@ -30,12 +30,12 @@
           </div>
           <div class="hero-list-item">
             <svg class="tick-icon" viewBox="0 0 20 20" fill="green"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-            <span class="list-text">We respect your data.</span>
+            <span class="list-text"><a href="#faq-header">We respect your data.</a></span>
           </div>
         </div>
 
         <div class="button-container">
-          <a href="checkout.php" class="button">Try out the product now.</a>
+          <a href="checkout.php" class="button">Get your headshot now.</a>
         </div>
     </div>
   <div class="hero-right">
