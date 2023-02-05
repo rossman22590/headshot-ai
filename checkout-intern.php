@@ -12,7 +12,7 @@ $checkout_session = \Stripe\Checkout\Session::create([
   'submit_type' => 'pay',
   'line_items' => [[
     # Provide the exact Price ID (e.g. pr_1234) of the product you want to sell
-    'price' => 'price_1MWt64C8MtCTDm8fEbLnsz2q',
+    'price' => 'price_1MWWwKC8MtCTDm8fHrSi7n6K',
     'quantity' => 1,
     ]],
   'mode' => 'payment',
