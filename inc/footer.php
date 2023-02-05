@@ -22,8 +22,8 @@
   <div class="footer-segment">
     <p class="footer-segment-heading"> Legal</p>
     <div class="footer-links">
-      <a href="#">Terms and Conditions</a>
-      <a href="#">Privacy Policy</a>
+      <a href="termsandconditions.php">Terms and Conditions</a>
+      <a href="privacypolicy.php">Privacy Policy</a>
     </div>
   </div>
 </div>
