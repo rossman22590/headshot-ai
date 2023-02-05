@@ -35,7 +35,7 @@
         </div>
 
         <div class="button-container">
-          <a href="contact-us.php" class="button">Try out the product now.</a>
+          <a href="checkout.php" class="button">Try out the product now.</a>
         </div>
     </div>
   <div class="hero-right">
@@ -122,7 +122,7 @@
       <h3>Get your perfect headshots now.</h3>
     </div>
     <div class="button-cta-container">
-      <a href="contact-us.php" class="button-cta">Get your headshots now</a>
+      <a href="checkout.php" class="button-cta">Get your headshots now</a>
    </div>
   </div>
 </div>

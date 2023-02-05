@@ -15,6 +15,7 @@
       <a href="checkout.php">Buy Now</a>
       <a href="#">Affiliate Programme - Coming Soon</a>
       <a href="contact-us.php">Contact Us</a>
+      <a href="contact-us.php">Corporate Packages</a>
     </div>
   </div>
 
