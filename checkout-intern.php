@@ -18,8 +18,8 @@ $checkout_session = \Stripe\Checkout\Session::create([
   'mode' => 'payment',
 
   'allow_promotion_codes' => true,
-  'success_url' => $YOUR_DOMAIN . '/success.php',
-  'cancel_url' => $YOUR_DOMAIN . '/checkout.php',
+  'success_url' => $YOUR_DOMAIN . 'success.php',
+  'cancel_url' => $YOUR_DOMAIN . 'checkout.php',
 ]);
 
 header("HTTP/1.1 303 See Other");
