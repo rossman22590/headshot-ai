@@ -1,7 +1,7 @@
 <?php
 
 require_once 'vendor/autoload.php';
-require_once 'secrets.php';
+require_once '/config/secrets.php';
 
 \Stripe\Stripe::setApiKey($stripeSecretKey);
 header('Content-Type: application/json');
