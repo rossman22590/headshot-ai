@@ -121,7 +121,7 @@
   <div class="cta-container">
     <div class="cta-header">
       <p>Try it out now</p>
-      <h3>Get your perfect headshots now.</h3>
+      <h3>Get your <span class="cta-underline">perfect headshots</span> now.</h3>
     </div>
     <div class="button-cta-container">
       <a href="checkout.php" class="button-cta">Get your headshots now</a>

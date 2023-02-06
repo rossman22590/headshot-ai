@@ -363,7 +363,7 @@ padding-top: 20px;
 }
 
 .faq-list {
-  margin-top: 70px;
+  margin-top: 50px;
   gap: 35px;
   width: 100%;
   text-align: left;
@@ -452,6 +452,26 @@ padding-top: 20px;
 .button-cta:hover {
   color: #ffffff;
   background-color: #0177ED;
+}
+
+.cta-underline {
+  position: relative;
+  font-style: italic;
+  width: auto;
+  display: inline-block;
+}
+
+.cta-underline::before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 8px;
+  background-color: #FFE381;
+  z-index: -1;
+  width: 340px;
 }
 
 /*footer*/
