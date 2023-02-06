@@ -69,9 +69,11 @@
                             </div>
                         </div>   
                     </div>
+                    <!--
                     <div class="checkout-testimonial">
                             <p>Over 1000+ headshots created for over 100 happy clients. <a href="testimonials.php">Read what they say.</a> </p>
                         </div>
+                    -->
             </div>  
         </div>
     </div>
