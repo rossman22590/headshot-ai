@@ -806,6 +806,20 @@ footer {
 
 /*checkout*/
 
+.discount-banner {
+  background-color: #F2F2F2;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.discount-banner-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: #4C4C4C;
+  text-align: center;
+  margin: auto;
+}
+
 .checkout-page {
   align-items: center;
   justify-content: center;

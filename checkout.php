@@ -14,7 +14,13 @@
   <meta charset="UTF-8">
   </head>
 
-
+<!--
+<div class="discount-banner">
+    <div class="discount-banner-text">
+        <p></p>
+    </div>
+</div>
+-->
 
 <div class="checkout-page">
     <div class="vertical-section">
