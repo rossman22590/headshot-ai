@@ -9,7 +9,7 @@ require_once '/home/u327334328/domains/headshotai.studio/config/secrets.php';
 \Stripe\Stripe::setApiKey($stripeSecretKey);
 header('Content-Type: application/json');
 
-$YOUR_DOMAIN = 'http://localhost:4242';
+$YOUR_DOMAIN = 'http://headshotai.studio/';
 
 $checkout_session = \Stripe\Checkout\Session::create([
   'submit_type' => 'pay',
