@@ -120,6 +120,29 @@ padding-top: 20px;
   -webkit-font-smoothing: antialiased;
 }
 
+.hero-text-underline {
+  font-size: 45px;
+  font-weight: 800;
+  text-align: left;
+  letter-spacing: -1.5px;
+  line-height: 48px;
+  color: #202020;
+  font-family: "Noto Serif", serif;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  position: relative;
+}
+
+.hero-text-underline:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background-color: your_color_here;
+}
+
 .hero-subtext-container {
     margin-top: 16px;
 }
