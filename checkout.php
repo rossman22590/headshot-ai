@@ -39,7 +39,7 @@
                         <div class="packages">
                             <div class="packages-section">
                                 <div class="package-text">
-                                    <h4>$21</h4>
+                                    <h4>US$21</h4>
                                     <h2>Intern</h2>
                                     <p>7 professional  profile photos in small (512x512) format.</p>
                                 </div>
@@ -51,7 +51,7 @@
                             </div>
                             <div class="packages-section" >
                                 <div class="package-text">
-                                    <h4>$35</h4>
+                                    <h4>US$35</h4>
                                     <h2>Professional</h2>
                                     <p>15 professional shots @ 4K resolution — 5 profile photos (4096x4096) + 10 portrait photos (16:9 aspect ratio).</p>
                                 </div>
@@ -63,7 +63,7 @@
                             </div>
                             <div class="packages-section-corporate">
                                 <div class="package-text">
-                                    <h4>$49</h4>
+                                    <h4>US$59</h4>
                                     <h2>Executive</h2>
                                     <p>30 professional shots @ 4K resolution — 10 profile photos (4096x4096) + 20 portrait photos (16:9 aspect ratio).</p>
                                 </div>
