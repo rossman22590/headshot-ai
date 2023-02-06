@@ -1,5 +1,8 @@
 <?php
 
+ini_set('display_errors',1);
+error_reporting(E_ALL);
+
 require_once 'vendor/autoload.php';
 require_once '/home/u327334328/domains/headshotai.studio/config/secrets.php';
 
