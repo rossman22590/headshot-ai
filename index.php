@@ -30,7 +30,7 @@
           </div>
           <div class="hero-list-item">
             <svg class="tick-icon" viewBox="0 0 20 20" fill="green"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-            <span class="list-text"><a href="#faq-header" style="text-decoration: underline;">We respect your data.</a></span>
+            <span class="list-text"><a href="#faq-header" style="color: #4C4C4C;">We respect your data.</a></span>
           </div>
         </div>
 
@@ -45,11 +45,11 @@
 </div>
 </div>
 
-
+<!-- hide for now
 <div class="testimonials-section">
   <div class="testimonials-container">
     <div class="testimonials-header">
-    <h3>1000+ professional headshots already created for over 100 happy clients.</h3>
+    <h3><span class="testimonial-underline-first">1000+</span> professional headshots already created for <span class="testimonial-underline-second">over 100</span> happy clients.</h3>
     <p>Look at what our happy clients had to say about us:</p>
   </div>
     <div class="testimonials-list">
@@ -66,6 +66,8 @@
     </div>
   </div>
 </div>
+
+-->
 
 <div class="faq-section">
   <div class="faq-container">

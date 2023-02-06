@@ -129,18 +129,20 @@ padding-top: 20px;
   color: #202020;
   font-family: "Noto Serif", serif;
   -webkit-font-smoothing: antialiased;
-  text-decoration: none;
   position: relative;
+  font-style: italic;
 }
 
-.hero-text-underline:after {
+.hero-text-underline::before {
   content: "";
   position: absolute;
-  bottom: -5px;
   left: 0;
   right: 0;
-  height: 5px;
-  background-color: yellow;
+  bottom: -5px;
+  height: 10px;
+  background-color: #FFE381;
+  z-index: -1;
+  width: 320px;
 }
 
 .hero-subtext-container {
@@ -262,6 +264,43 @@ padding-top: 20px;
   line-height: 20px;
   margin-top: 15px;
   font-weight: 500;
+}
+
+.testimonial-underline-first {
+  position: relative;
+  font-style: italic;
+}
+
+.testimonial-underline-first::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 8px;
+  background-color: #FFE381;
+  z-index: -1;
+  width: 90px;
+}
+
+.testimonial-underline-second {
+  position: relative;
+  font-style: italic;
+  width: auto;
+  display: inline-block;
+}
+
+.testimonial-underline-second::before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 8px;
+  background-color: #FFE381;
+  z-index: -1;
+  width: 120px;
 }
 
 /*Package*/
@@ -698,6 +737,18 @@ footer {
  .hero-text {
     text-align: center;
 }
+
+.hero-text-underline {
+  text-align: center;
+}
+
+.hero-text-underline::before {
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0);
+  width: 350px;
+}
+
 .hero {
     margin: auto;
     padding: 16px;
