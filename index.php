@@ -81,7 +81,7 @@
         </div>
         <div>
           <h4>What happens to my photos after uploading?</h4>
-          <p>We only use them to train the AI to generate your headshots. We leave them up for 30 days to give you time to decide if you want to generate more headshots at a lower price. They will then be completely deleted from all our servers. Beware of other apps - they may store your data forever and could be linked to foreign governments.</p>
+          <p>We only use them to train the AI to generate your headshots. We leave them up for 30 days to give you time to decide if you want to generate more headshots at a lower price. They will then be immediately deleted from all our servers. Beware of other apps - they may store your data forever and could be linked to foreign governments.</p>
         </div>
         <div>
           <h4>Is your payment service secure?</h4>

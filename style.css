@@ -906,3 +906,19 @@ footer {
   font-size: 10px;
   color: rgb(84, 84, 84);
 }
+
+
+
+/* T&C */
+
+.tnc-container {
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.tnc-container p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
