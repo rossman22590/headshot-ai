@@ -103,7 +103,7 @@
         </div>
         <div>
           <h4>Who runs this service?</h4>
-          <p>Myself — Brian Gi, a legal engineer based in Singapore. I just want you to have awesome headshots without the hassle. There are no large corporations behind this. Since I own 100% of this site, it means I don't have any ulterior motives with your data since nobody tells me what to do. </p>
+          <p>Myself — Brian Gi, a solopreneur based in Singapore. I just want you to have awesome headshots without the hassle. There are no large corporations behind this. Since I own 100% of this site, it means I don't have any ulterior motives with your data since nobody tells me what to do. </p>
         </div>
         <div>
           <h4>Can I get a refund?</h4>
