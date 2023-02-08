@@ -7,7 +7,7 @@
       <div class="contact-header">
         <h3>Contact Us</h3>
         <p>Fill out the form below to send us an email.</p>
-        <p>Or, you can email us directly at <a href="mailto:brian@headshotai.studio" style="color: #0065CC;">support@headshotai.studio</a>.</p>
+        <p>Or, you can email us directly at <a href="mailto:brian@headshotai.studio" style="color: #0065CC;">brian@headshotai.studio</a>.</p>
 
       </div>
 

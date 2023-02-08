@@ -18,7 +18,7 @@ $checkout_session = \Stripe\Checkout\Session::create([
   'mode' => 'payment',
 
   'allow_promotion_codes' => true,
-  'success_url' => $YOUR_DOMAIN . 'success.php',
+  'success_url' => $YOUR_DOMAIN . 'success.php?session_id={CHECKOUT_SESSION_ID}',
   'cancel_url' => $YOUR_DOMAIN . 'checkout.php',
 ]);
 
