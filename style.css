@@ -824,7 +824,7 @@ footer {
   align-items: center;
   justify-content: center;
   display: flex;
-  background-image: url(images/checkout-background.png);
+  background-image: url(images/checkout-background.jpg);
   background-size: contain;
   background-position: 50%;
   height: 100vh;
