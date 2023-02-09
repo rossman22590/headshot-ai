@@ -5,7 +5,7 @@
   </div>
   
 <div class="footer-text">
-  <p>We create business headshots for you that make you look professional and feel confident. Make your studio-quality headshot with A.I. now. </p>
+  <p>Get your business headshots that make you look professional and feel confident. Make your studio-quality headshot with A.I. now. </p>
 </div>
 
 <div class="footer-links-container">
