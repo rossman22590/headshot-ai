@@ -341,13 +341,16 @@ padding-top: 20px;
 }
 
 .process-image {
-  margin-top: 20px;
   display: block;
   max-width: 800px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: auto;
+}
+
+.process-image {
+  margin-top: 20px;
 }
 
 .package-image {
