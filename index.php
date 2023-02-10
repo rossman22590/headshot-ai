@@ -11,7 +11,7 @@
         </div>
 
         <div class="hero-subtext-container">
-            <p class="hero-subtext">Get yourself a  professional photoshoot without leaving your room.</p>
+            <p class="hero-subtext">Your perfect headshot is just a click away.</p>
         </div>
 
         <div class="welcome-section">
