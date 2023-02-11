@@ -62,8 +62,8 @@
 <div class="package-section">
   <div class="package-container">
     <div class="package-header">
-    <h3>Save your valuable time</h3>
-    <p> Don't waste hours on a photoshoot. Simple two-step process.</p>
+    <h3>Get professional photos with one click.</h3>
+    <p> Don't waste hours on a photoshoot.</p>
     </div>
     <div class="package-image">
       <img src="images/process.jpg" class="process-image">
