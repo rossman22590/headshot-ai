@@ -53,7 +53,7 @@
                                 <div class="package-text">
                                     <h4>US$35</h4>
                                     <h2>Professional</h2>
-                                    <p>15 professional shots @ 4K resolution — 5 profile photos (4096x4096) + 10 portrait photos (16:9 aspect ratio).</p>
+                                    <p>14 professional shots @ 4K resolution — 7 profile photos (4096x4096) + 7 portrait photos (16:9 aspect ratio).</p>
                                 </div>
                                 <div class="paybutton-container">
                                     <form action="checkout-professional.php" method="POST">
