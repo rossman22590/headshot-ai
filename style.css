@@ -362,6 +362,10 @@ padding-top: 20px;
   margin-top: 32px;
 }
 
+.package-image {
+  max-width: 1000px;
+}
+
 
 /*FAQ*/
 
