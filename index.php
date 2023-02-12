@@ -39,7 +39,7 @@
         </div>
     </div>
   <div class="hero-right">
-    <img src="images/hero-image.png" class="hero-image">
+    <img src="images/hero-image.jpg" class="hero-image">
   </div>
 
 </div>
@@ -51,9 +51,12 @@
     <div class="testimonials-header">
     <h3><span class="testimonial-underline-first">1000+</span> professional headshots already created for <span class="testimonial-underline-second">over 100</span> happy clients.</h3>
     <p>Look at what our happy clients had to say about us:</p>
-  </div>
+    </div>
     <div class="testimonials-list">
       
+    </div>
+    <div class="testimonials-button-container">
+      <a href="testimonials.php" class="button-cta">Read more here.</a>
     </div>
   </div>
 </div>

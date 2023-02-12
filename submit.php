@@ -1,35 +1,57 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-  $name = $_POST['name'];
-  $gender = $_POST['gender'];
-  $photos = $_FILES['photos'];
 
-  $allowedTypes = array('image/jpeg', 'image/png', 'image/webp', 'image/heic');
+if(isset($_POST['submit'])) 
+{
+
+  $allowed = array('jpg', 'jpeg', 'png', 'webp', 'heic');
+
   $maxCount = 20;
+  $maxSize = 2097152;
   
   $count = 0;
   $uploadedFiles = array();
-  
-  foreach ($photos['tmp_name'] as $key => $tmp_name) {
-    if ($count == $maxCount) {
-      break;
-    }
-    
-    if (in_array($photos['type'][$key], $allowedTypes)) {
-      $count++;
-      $uploadedFiles[] = array(
-        'tmp_name' => $tmp_name,
-        'name' => $photos['name'][$key]
-      );
-    }
-  }
-  
-  if (count($uploadedFiles) < $maxCount) {
-    echo 'Error: Only ' . implode(', ', $allowedTypes) . ' files are allowed and exactly ' . $maxCount . ' files are required.';
-    exit;
-  }
-  
-  // Move uploaded files to the desired location and save other form data to the database
-  // ...
+
+  $uploadDir = '/Applications/XAMPP/xamppfiles/htdocs/photo_uploads/';
+
+  foreach ($_FILES['photos']['name'] as $fileIndex => $fileName) {
+    $file = $_FILES['userfile'];
+    $fileName = $_FILES['userfile']['name'];
+    $fileSize = $_FILES['userfile']['size'];
+    $fileError = $_FILES['userfile']['error'];
+    $fileType = $_FILES['userfile']['type'];
+    $fileTmpName = $_FILES['userfile']['tmp_name'];
+    $fileExt = explode('.', $fileName);
+    $fileActualExt = strtolower(end($fileExt));
+
+    if (in_array($fileActualExt, $allowed)) {
+      if ($fileError === 0) {
+              if ($fileSize < $maxSize) {
+                $fileNameNew = uniqid('', true).".".$fileActualExt;
+                $fileDestination = $uploadDir.$fileNameNew;
+                move_uploaded_file($fileTmpName, $fileDestination);
+                array_push($uploadedFiles, $fileDestination);
+                $count++;
+                
+                } else {
+                  echo "Each photo must be under 3MB!";
+                        }
+
+      } else {
+        echo "There was an error uploading your file!";
+      }
+      
+  } else {
+    echo "Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 3MB each";
+  } 
+} 
+
+
+if ($count >= 20 && $count === count($_FILES['photos']['name'])) {
+  header("Location: success.php?success");
+}
+else {
+  header("Location: success.php?error");
+}
+
 }
 ?>

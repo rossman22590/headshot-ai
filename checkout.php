@@ -35,7 +35,7 @@
                 <div class="upper-box">
                         <h3>Select a package</h3>
                         <h4 class="package-subtext">Your career deserves attention and respect. One-time payment only.</h4>
-                        <h4 class="package-subtext">Don't waste $250+ and hours out of your day for a traditional photoshoot.</h4>
+                        <h4 class="package-subtext">Get professional photos at an affordable price.</h4>
                         <div class="packages">
                             <div class="packages-section">
                                 <div class="package-text">

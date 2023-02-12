@@ -13,6 +13,7 @@
         {
                 header('location:contact-us.php?error');
         }
+        
         else
         {
             $to = "brian@headshotai.studio";

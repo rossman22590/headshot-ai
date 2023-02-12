@@ -1,5 +1,4 @@
 <?php
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // retrieve the token from the form data
     $token = $_POST['token'];
@@ -20,7 +19,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         mysqli_query($conn, $sql);
     }
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -45,9 +43,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <div class="contact-section">
   <div class="contact-container">
   <div class="col-6">
-        <form action="submit.php" method="post">
+
+        <form action="submit.php" method="POST" enctype="multipart/form-data">
           <div class="form-group">
-            <input type="hidden" name="token" value="<?php echo $token; ?>">
+          <h4> Thanks for your purchase! The rest will be quick! </h4>  
+          <input type="hidden" name="token" value="<?php echo $token; ?>">
             <!-- name form submission fields here -->
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -64,11 +64,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <br><br>
           
             <label for="photos">Upload Photos (JPG, PNG, WebP, HEIC, 20 pictures max):</label>
-            <input type="file" id="photos" name="photos[]" multiple accept="image/jpeg, image/png, image/webp, image/heic" required>
+            <input type="file" id="photos" name="userfile[]" multiple accept="image/jpeg, image/jpg, image/png, image/webp, image/heic" required>
 
+            <?php
+            $Msg = "";
+            if (isset($_GET['error'])) {
+              echo 'Error: Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 3MB each. 20 or more photos are required.';
+            }
+            if (isset($_GET['success'])) {
+                echo 'Your file has been successfully uploaded';
+            }
+            ?>
 
             <br><br>
-            <input type="submit" value="Submit">
+            <button type="submit" name="submit">Submit</button>
           </div>
         </form>
 
@@ -76,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   </div>
 </div>
 
-
 </body>
 </html>
+
 
