@@ -19,11 +19,6 @@ if(isset($_POST['submit']))
 
   $uploadDir = "/home/u327334328/domains/headshotai.studio/product-images/$name.$gender.$email.$tag/";
 
-
- 
-
-
-// upload multiple images by creating a new subfolder in $uploadDir and check they are above the minCount, smaller than maxSize, and are in the allowed array rename the images after you move them with a uniqid and the extension
   
     foreach($_FILES['userfile']['name'] as $key => $val) {
       $fileName = $_FILES['userfile']['name'][$key];
