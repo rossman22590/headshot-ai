@@ -15,6 +15,39 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link href="/dist/output.css" rel="stylesheet">
 <meta charset="UTF-8">
+
+<script>
+    const fileInput = document.getElementById("fileInput");
+    const preview = document.getElementById("preview");
+
+    fileInput.addEventListener("change", function() {
+      // Clear the preview div
+      preview.innerHTML = '';
+
+      // Loop through the selected files
+      for (let i = 0; i < fileInput.files.length; i++) {
+        const file = fileInput.files[i];
+
+        // Create a new FileReader object
+        const reader = new FileReader();
+
+        // Set the reader to load the file as a data URL
+        reader.readAsDataURL(file);
+
+        // When the reader has loaded the file, do the following
+        reader.onload = function(event) {
+          // Create a new image element
+          const image = new Image();
+
+          // Set the image source to the data URL
+          image.src = event.target.result;
+
+          // Append the image element to the preview div
+          preview.appendChild(image);
+        };
+      }
+    });
+  </script>
 <script src="jquery-3.6.1.min.js"></script>
 <script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
 <script async src='https://r.wdfl.co/rw.js' data-rewardful='50e123'></script>
@@ -32,18 +65,20 @@
 <body>
 
 <div class="success-section">
+       
   <div class="success-container">
-  <div class="col-6">
+      
+      
+    <div class="form-section">
+
     <div class=submit-logo>
-      <img src="images/logo.png">
-    </div>  
+          <img src="images/logo.png">
+      </div> 
+    <h4 style="text-align: center; font-weight: 800"> Thanks for your purchase! The rest will be quick! </h4> 
+          <br><br> 
         <form action="submit.php" method="POST" enctype="multipart/form-data">
+
           <div class="form-group">
-
-          
-          <h4 style="text-align: center;"> Thanks for your purchase! The rest will be quick! </h4>  
-          <br><br>
-
           <!-- retrieve stripe payment id-->
           <input type="hidden" name="payment_id" value="<?php echo $_GET['payment_id']; ?>">
           <!--retrieve email from stripe payment  -->
@@ -71,10 +106,12 @@
             <br><br>
             <label for="photos">Upload 20 photos:</label>
             <input type="file" id="photos" name="userfile[]" multiple accept="image/jpeg, image/jpg, image/png, image/webp, image/heic" required>
+            <div id="preview"></div>
             <div>
               <br>
-
-              <img src="images/guideline.jpg" style="margin: auto; display: flex; padding: 10%; padding-top: 0px; padding-bottom: 0px; width: 50%; max-width: 800px; min-width: 400px;">
+              <div class="guideline-image">
+                <img src="images/guideline.jpg">
+              </div>
             <?php
             $Msg = "";
             if (isset($_GET['error'])) {
@@ -91,12 +128,14 @@
 
             
             <button type="submit" name="submit" class="success-button <?php echo $hidemydiv ?>">Submit</button>
-          </div>
+        </div>
         </form>
 
-  </div>
+
+    </div>
   </div>
 </div>
+
 
 </body>
 </html>
