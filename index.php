@@ -81,7 +81,7 @@
             <p class="testimonial-text">"It was easy to use and the final curated images were top-quality! Highly recommend for anyone in need of a professional headshot."</p>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-jess.jpeg" class="testimonial-image">
+              <img src="images/testimonial-jess.jpg" class="testimonial-image">
           </div>
           </div>
 
