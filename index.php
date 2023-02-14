@@ -96,38 +96,6 @@
       </div>
       </div>
 
-      <div class="testimonial-card">
-      <div class="testimonial-card-text">
-        <p class="testimonial-name">Landy Hu</p> 
-        <p class="testimonial-title">Nurse</p>  
-        <p class="testimonial-text">"This product helped me create a LinkedIn profile picture without having to go to a professional photographer. Very impressive!"</p>
-      </div>  
-      <div class="testimonial-card-image">
-          <img src="images/testimonial1.jpeg" class="testimonial-image">
-      </div>
-      </div>
-
-      <div class="testimonial-card">
-      <div class="testimonial-card-text">
-        <p class="testimonial-name">Landy Hu</p> 
-        <p class="testimonial-title">Nurse</p>  
-        <p class="testimonial-text">"This product helped me create a LinkedIn profile picture without having to go to a professional photographer. Very impressive!"</p>
-      </div>  
-      <div class="testimonial-card-image">
-          <img src="images/testimonial1.jpeg" class="testimonial-image">
-      </div>
-      </div>
-
-      <div class="testimonial-card">
-      <div class="testimonial-card-text">
-        <p class="testimonial-name">Landy Hu</p> 
-        <p class="testimonial-title">Nurse</p>  
-        <p class="testimonial-text">"This product helped me create a LinkedIn profile picture without having to go to a professional photographer. Very impressive!"</p>
-      </div>  
-      <div class="testimonial-card-image">
-          <img src="images/testimonial1.jpeg" class="testimonial-image">
-      </div>
-      </div>
 
         </div>
       </div>
