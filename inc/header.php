@@ -15,6 +15,15 @@
 <script src="jquery-3.6.1.min.js"></script>
 <script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
 <script async src='https://r.wdfl.co/rw.js' data-rewardful='50e123'></script>
+<script>
+  rewardful('ready', function() {
+    if(Rewardful.referral) {
+      console.log('Current referral ID: ', Rewardful.referral);
+    } else {
+      console.log('No referral present.');
+    }
+  });
+</script>
 </head>
 <body>
 

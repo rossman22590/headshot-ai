@@ -14,7 +14,16 @@
   <meta charset="UTF-8">
   <script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
 <script async src='https://r.wdfl.co/rw.js' data-rewardful='50e123'></script>
-  </head>
+<script>
+  rewardful('ready', function() {
+    if(Rewardful.referral) {
+      console.log('Current referral ID: ', Rewardful.referral);
+    } else {
+      console.log('No referral present.');
+    }
+  });
+</script>  
+</head>
 
 <!--
 <div class="discount-banner">

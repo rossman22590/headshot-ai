@@ -20,6 +20,9 @@ $checkout_session = \Stripe\Checkout\Session::create([
   'allow_promotion_codes' => true,
   'success_url' => $YOUR_DOMAIN . 'success.php',
   'cancel_url' => $YOUR_DOMAIN . 'checkout.php',
+
+  'client_reference_id' => isset($_REQUEST['referral']) ? $_REQUEST['referral'] : 'checkout-' . bin2hex(random_bytes(16)),
+
 ]);
 
 header("HTTP/1.1 303 See Other");
