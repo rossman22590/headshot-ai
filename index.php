@@ -45,22 +45,101 @@
 </div>
 </div>
 
-<!-- hide for now
+<!-- testimonials section -->
+
 <div class="testimonials-section">
   <div class="testimonials-container">
     <div class="testimonials-header">
-    <h3><span class="testimonial-underline-first">1000+</span> professional headshots already created for <span class="testimonial-underline-second">over 100</span> happy clients.</h3>
-    <p>Look at what our happy clients had to say about us:</p>
-    </div>
-    <div class="testimonials-list">
-      
-    </div>
-    <div class="testimonials-button-container">
-      <a href="testimonials.php" class="button-cta">Read more here.</a>
+    <!-- <h3><span class="testimonial-underline-first">1000+</span> professional headshots already created for <span class="testimonial-underline-second">over 100</span> happy clients.</h3> -->
+    <h3> Professionals left satisfied </h3>
+    <p>Look at what our happy clients had to say about us: </p>
+    <p style= margin-top:0px;> -> -> </p>
     </div>
   </div>
 </div>
--->
+
+    <div class="testimonial-slider-section">
+      <div class="testimonial-slider-container">
+      <div class="testimonial-images">
+
+      <!-- testimonial card with name, testimonial and image -->
+      <div class="testimonial-card">
+      <div class="testimonial-card-text">
+        <p class="testimonial-name">Landy Hu</p> 
+        <p class="testimonial-title">Nurse</p>  
+        <p class="testimonial-text">"This product helped me create a LinkedIn profile picture without having to go to a professional photographer. Very impressive!"</p>
+      </div>  
+      <div class="testimonial-card-image">
+          <img src="images/testimonial1.jpeg" class="testimonial-image">
+      </div>
+      </div>
+
+      <div class="testimonial-card">
+      <div class="testimonial-card-text">
+        <p class="testimonial-name">Jessica Then</p> 
+        <p class="testimonial-title">Training Intellectual Property Lawyer</p>  
+        <p class="testimonial-text">"It was easy to use and the final curated images were top-quality! Highly recommend for anyone in need of a professional headshot."</p>
+      </div>  
+      <div class="testimonial-card-image">
+          <img src="images/testimonial-jess.jpeg" class="testimonial-image">
+      </div>
+      </div>
+
+      <div class="testimonial-card">
+      <div class="testimonial-card-text">
+        <p class="testimonial-name">Yiwen Sun</p> 
+        <p class="testimonial-title">Graduate, Allianz Australia</p>  
+        <p class="testimonial-text">"It was such a quick and easy process, and it even changed my clothes to make me look even more professional! Loved the final outcome."</p>
+      </div>  
+      <div class="testimonial-card-image">
+          <img src="images/testimonial-yiwen.png" class="testimonial-image">
+      </div>
+      </div>
+
+      <div class="testimonial-card">
+      <div class="testimonial-card-text">
+        <p class="testimonial-name">Landy Hu</p> 
+        <p class="testimonial-title">Nurse</p>  
+        <p class="testimonial-text">"This product helped me create a LinkedIn profile picture without having to go to a professional photographer. Very impressive!"</p>
+      </div>  
+      <div class="testimonial-card-image">
+          <img src="images/testimonial1.jpeg" class="testimonial-image">
+      </div>
+      </div>
+
+      <div class="testimonial-card">
+      <div class="testimonial-card-text">
+        <p class="testimonial-name">Landy Hu</p> 
+        <p class="testimonial-title">Nurse</p>  
+        <p class="testimonial-text">"This product helped me create a LinkedIn profile picture without having to go to a professional photographer. Very impressive!"</p>
+      </div>  
+      <div class="testimonial-card-image">
+          <img src="images/testimonial1.jpeg" class="testimonial-image">
+      </div>
+      </div>
+
+      <div class="testimonial-card">
+      <div class="testimonial-card-text">
+        <p class="testimonial-name">Landy Hu</p> 
+        <p class="testimonial-title">Nurse</p>  
+        <p class="testimonial-text">"This product helped me create a LinkedIn profile picture without having to go to a professional photographer. Very impressive!"</p>
+      </div>  
+      <div class="testimonial-card-image">
+          <img src="images/testimonial1.jpeg" class="testimonial-image">
+      </div>
+      </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="button-cta-container">
+      <a href="testimonials.php" class="button-testimonials">Read more here.</a>
+    </div>
+  </div>
+</div>
+
 
 <div class="package-section">
   <div class="package-container">

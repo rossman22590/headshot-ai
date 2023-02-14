@@ -6,7 +6,7 @@ require_once '/home/u327334328/domains/headshotai.studio/config/secrets.php';
 \Stripe\Stripe::setApiKey($stripeSecretKey);
 header('Content-Type: application/json');
 
-$YOUR_DOMAIN = 'http://headshotai.studio/';
+$YOUR_DOMAIN = 'https://headshotai.studio/';
 
 $checkout_session = \Stripe\Checkout\Session::create([
   'submit_type' => 'pay',
@@ -18,7 +18,7 @@ $checkout_session = \Stripe\Checkout\Session::create([
   'mode' => 'payment',
 
   'allow_promotion_codes' => true,
-  'success_url' => $YOUR_DOMAIN . 'success.php?session_id={CHECKOUT_SESSION_ID}',
+  'success_url' => $YOUR_DOMAIN . 'success.php?',
   'cancel_url' => $YOUR_DOMAIN . 'checkout.php',
 ]);
 

@@ -1,25 +1,4 @@
-<?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // retrieve the token from the form data
-    $token = $_POST['token'];
 
-    // check if the token has been used
-    $sql = "SELECT * FROM form_tokens WHERE token = '$token' AND used = 1";
-    $result = mysqli_query($conn, $sql);
-    if (mysqli_num_rows($result) > 0) {
-        // token has already been used, reject the form submission
-        echo "Error: This form has already been submitted.";
-        exit;
-    } else {
-        // process the form data
-        // ...
-
-        // mark the token as used
-        $sql = "UPDATE form_tokens SET used = 1 WHERE token = '$token'";
-        mysqli_query($conn, $sql);
-    }
-}
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,18 +16,39 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <link href="/dist/output.css" rel="stylesheet">
 <meta charset="UTF-8">
 <script src="jquery-3.6.1.min.js"></script>
+<script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
+<script async src='https://r.wdfl.co/rw.js' data-rewardful='50e123'></script>
+<script>
+  rewardful('convert', { email: 'joe@example.com' })
+</script>
 </head>
 <body>
 
-<div class="contact-section">
-  <div class="contact-container">
+<div class="success-section">
+  <div class="success-container">
   <div class="col-6">
-
+    <div class=submit-logo>
+      <img src="images/logo.png">
+    </div>  
         <form action="submit.php" method="POST" enctype="multipart/form-data">
           <div class="form-group">
-          <h4> Thanks for your purchase! The rest will be quick! </h4>  
-          <input type="hidden" name="token" value="<?php echo $token; ?>">
+
+          
+          <h4 style="text-align: center;"> Thanks for your purchase! The rest will be quick! </h4>  
+          <br><br>
+
+          <!-- retrieve stripe payment id-->
+          <input type="hidden" name="payment_id" value="<?php echo $_GET['payment_id']; ?>">
+          <!--retrieve email from stripe payment  -->
+          <input type="hidden" name="email" value="<?php echo $_GET['email']; ?>">
+
             <!-- name form submission fields here -->
+            <label for="email">Email:</label>
+            <input type="text" name="email" required>
+            <p style="margin-top: 10px; color: grey;"> Please enter the email you used to purchase the service. </p>
+
+            <br>
+
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
           
@@ -60,24 +60,30 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <option value="male">Male</option>
             <option value="female">Female</option>
             </select>
-          
-            <br><br>
-          
-            <label for="photos">Upload Photos (JPG, PNG, WebP, HEIC, 20 pictures max):</label>
-            <input type="file" id="photos" name="userfile[]" multiple accept="image/jpeg, image/jpg, image/png, image/webp, image/heic" required>
 
+            <br><br>
+            <label for="photos">Upload 20 photos:</label>
+            <input type="file" id="photos" name="userfile[]" multiple accept="image/jpeg, image/jpg, image/png, image/webp, image/heic" required>
+            <div>
+              <br>
+
+              <img src="images/guideline.png" style="margin: auto; display: flex; padding: 10%; padding-top: 0px; padding-bottom: 0px; width: 50%; max-width: 800px; min-width: 400px;">
             <?php
             $Msg = "";
             if (isset($_GET['error'])) {
               echo 'Error: Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 3MB each. 20 or more photos are required.';
             }
-            if (isset($_GET['success'])) {
-                echo 'Your file has been successfully uploaded';
-            }
-            ?>
+            if (isset($_GET['success'])) : {
+              $hidemydiv = "hide";
+            } ?>
+              <p>Your file has been successfully uploaded.<a href="index.php"> <br><br> Click here to go back to the homepage</a>
+            </p>
+            <br>
+            <?php endif; ?>
+            </div>
 
-            <br><br>
-            <button type="submit" name="submit">Submit</button>
+            
+            <button type="submit" name="submit" class="success-button <?php echo $hidemydiv ?>">Submit</button>
           </div>
         </form>
 

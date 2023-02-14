@@ -5,53 +5,56 @@ if(isset($_POST['submit']))
 
   $allowed = array('jpg', 'jpeg', 'png', 'webp', 'heic');
 
-  $maxCount = 20;
+  $minCount = 20;
   $maxSize = 2097152;
   
   $count = 0;
   $uploadedFiles = array();
 
-  $uploadDir = '/Applications/XAMPP/xamppfiles/htdocs/photo_uploads/';
+  $name = $_POST['name'];
+  $gender = $_POST['gender'];
+  $email = $_POST['email'];
+  $tag = uniqid();
 
-  foreach ($_FILES['photos']['name'] as $fileIndex => $fileName) {
-    $file = $_FILES['userfile'];
-    $fileName = $_FILES['userfile']['name'];
-    $fileSize = $_FILES['userfile']['size'];
-    $fileError = $_FILES['userfile']['error'];
-    $fileType = $_FILES['userfile']['type'];
-    $fileTmpName = $_FILES['userfile']['tmp_name'];
-    $fileExt = explode('.', $fileName);
-    $fileActualExt = strtolower(end($fileExt));
 
-    if (in_array($fileActualExt, $allowed)) {
-      if ($fileError === 0) {
-              if ($fileSize < $maxSize) {
-                $fileNameNew = uniqid('', true).".".$fileActualExt;
-                $fileDestination = $uploadDir.$fileNameNew;
-                move_uploaded_file($fileTmpName, $fileDestination);
-                array_push($uploadedFiles, $fileDestination);
-                $count++;
-                
-                } else {
-                  echo "Each photo must be under 3MB!";
-                        }
+  $uploadDir = "/Applications/XAMPP/xamppfiles/htdocs/photo_uploads/$name.$gender.$email.$tag/";
 
-      } else {
-        echo "There was an error uploading your file!";
+
+ 
+
+
+// upload multiple images by creating a new subfolder in $uploadDir and check they are above the minCount, smaller than maxSize, and are in the allowed array rename the images after you move them with a uniqid and the extension
+  
+    foreach($_FILES['userfile']['name'] as $key => $val) {
+      $fileName = $_FILES['userfile']['name'][$key];
+      $tmpName = $_FILES['userfile']['tmp_name'][$key];
+      $fileSize = $_FILES['userfile']['size'][$key];
+      $fileType = $_FILES['userfile']['type'][$key];
+      $ext = pathinfo($fileName, PATHINFO_EXTENSION);
+  
+      if(in_array($ext, $allowed)) {
+        if($fileSize < $maxSize) {
+          $count++;
+          $newFileName = uniqid() . '.' . $ext;
+          if(!is_dir($uploadDir)) {
+            mkdir($uploadDir, 0777, true);
+          }
+          $uploadFile = $uploadDir . $newFileName;
+          if(move_uploaded_file($tmpName, $uploadFile)) {
+            $uploadedFiles[] = $uploadFile;
+          }
+        }
       }
-      
-  } else {
-    echo "Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 3MB each";
-  } 
-} 
+    }
+  
+    if($count >= $minCount) {
+      header('Location: success.php?success');
+    } else {
+      header('Location: success.php?error');
+    }
+  }
 
 
-if ($count >= 20 && $count === count($_FILES['photos']['name'])) {
-  header("Location: success.php?success");
-}
-else {
-  header("Location: success.php?error");
-}
 
-}
+
 ?>

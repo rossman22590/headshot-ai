@@ -12,6 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <script src="https://js.stripe.com/v3/"></script>
   <meta charset="UTF-8">
+  <script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
+<script async src='https://r.wdfl.co/rw.js' data-rewardful='50e123'></script>
   </head>
 
 <!--
@@ -65,7 +67,7 @@
                                 <div class="package-text">
                                     <h4>US$59</h4>
                                     <h2>Executive</h2>
-                                    <p>30 professional shots @ 4K resolution — 10 profile photos (4096x4096) + 20 portrait photos (16:9 aspect ratio).</p>
+                                    <p>30 professional shots @ 4K resolution — 15 profile photos (4096x4096) + 15 portrait photos (16:9 aspect ratio).</p>
                                 </div>
                                 <div class="paybutton-container">
                                     <form action="checkout-executive.php" method="POST">

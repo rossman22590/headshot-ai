@@ -13,6 +13,8 @@
 <link href="/dist/output.css" rel="stylesheet">
 <meta charset="UTF-8">
 <script src="jquery-3.6.1.min.js"></script>
+<script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
+<script async src='https://r.wdfl.co/rw.js' data-rewardful='50e123'></script>
 </head>
 <body>
 
