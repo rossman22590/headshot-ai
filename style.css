@@ -1192,9 +1192,9 @@ footer {
 .success-container {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   justify-content: center;
-  text-align: left; 
+  text-align: center; 
   margin: auto;
 }
 
