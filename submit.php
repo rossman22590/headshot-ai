@@ -17,7 +17,7 @@ if(isset($_POST['submit']))
   $tag = uniqid();
 
 
-  $uploadDir = "/Applications/XAMPP/xamppfiles/htdocs/photo_uploads/$name.$gender.$email.$tag/";
+  $uploadDir = "/home/u327334328/domains/headshotai.studio/product-images/$name.$gender.$email.$tag/";
 
 
  
