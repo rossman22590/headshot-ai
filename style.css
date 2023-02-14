@@ -1239,6 +1239,17 @@ footer {
 }
 
 
+.guideline-image img {
+  margin: auto; 
+  display: flex; 
+  padding: 10%; 
+  padding-top: 0px; 
+  padding-bottom: 0px; 
+  width: 50%; 
+  max-width: 800px; 
+  min-width: 400px;
+}
+
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
