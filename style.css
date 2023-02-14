@@ -955,6 +955,9 @@ footer {
   padding-right: 5%;
 }
 
+.cta-underline::before {
+  display: none;
+}
 
 }
 
