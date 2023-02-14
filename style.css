@@ -322,8 +322,6 @@ padding-top: 20px;
   white-space: nowrap;
   display: block;
   width: 100%;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
 .testimonial-slider-container::-webkit-scrollbar {
