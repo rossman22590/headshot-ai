@@ -73,7 +73,7 @@
             <div>
               <br>
 
-              <img src="images/guideline.png" style="margin: auto; display: flex; padding: 10%; padding-top: 0px; padding-bottom: 0px; width: 50%; max-width: 800px; min-width: 400px;">
+              <img src="images/guideline.jpg" style="margin: auto; display: flex; padding: 10%; padding-top: 0px; padding-bottom: 0px; width: 50%; max-width: 800px; min-width: 400px;">
             <?php
             $Msg = "";
             if (isset($_GET['error'])) {
