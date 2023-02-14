@@ -96,17 +96,6 @@
           </div>
           </div>
 
-          <div class="testimonial-card">
-          <div class="testimonial-card-text">
-            <p class="testimonial-name">Yiwen Sun</p> 
-            <p class="testimonial-title">Graduate, Allianz Australia</p>  
-            <p class="testimonial-text">"It was such a quick and easy process, and it even changed my clothes to make me look even more professional! Loved the final outcome."</p>
-          </div>  
-          <div class="testimonial-card-image">
-              <img src="images/testimonial-yiwen.png" class="testimonial-image">
-          </div>
-          </div>
-
         </div>  
       </div>
     </div>
