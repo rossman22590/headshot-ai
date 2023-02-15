@@ -98,23 +98,12 @@
 
           <div class="testimonial-card">
           <div class="testimonial-card-text">
-            <p class="testimonial-name">Yiwen Sun</p> 
-            <p class="testimonial-title">Graduate, Allianz Australia</p>  
-            <p class="testimonial-text">"It was such a quick and easy process, and it even changed my clothes to make me look even more professional! Loved the final outcome."</p>
-          </div>  
-          <div class="testimonial-card-image">
-              <img src="images/testimonial-yiwen.png" class="testimonial-image">
-          </div>
-          </div>
-
-          <div class="testimonial-card">
-          <div class="testimonial-card-text">
             <p class="testimonial-name">Julia Lee</p> 
             <p class="testimonial-title">Graduate Engineer</p>  
             <p class="testimonial-text">"This AI-generated headshot service delivered stunning, professional results while saving time and money. It's an impressive and inspiring example of the capabilities of AI in photography."</p>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-yiwen.png" class="testimonial-image">
+              <img src="images/testimonial-julia.png" class="testimonial-image">
           </div>
           </div>
 
