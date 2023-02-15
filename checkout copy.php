@@ -58,7 +58,7 @@
                                     <p>7 professional  profile photos in small (512x512) format.</p>
                                 </div>
                                 <div class="paybutton-container">
-                                    <form action="https://buy.stripe.com/eVaaF1a5t4zQ8Jq4gj" method="POST">
+                                    <form action="checkout-intern.php" method="POST">
                                         <button class="paybutton" type="submit">Select</button>
                                     </form>
                                 </div>
@@ -70,7 +70,7 @@
                                     <p>14 professional shots @ 4K resolution — 7 profile photos (4096x4096) + 7 portrait photos (16:9 aspect ratio).</p>
                                 </div>
                                 <div class="paybutton-container">
-                                    <form action="https://buy.stripe.com/cN27sP3H5eaq1gY4gk" method="POST">
+                                    <form action="checkout-professional.php" method="POST">
                                         <button class="paybutton-middle" type="submit">Select</button>
                                     </form>
                                 </div>
@@ -82,13 +82,12 @@
                                     <p>30 professional shots @ 4K resolution — 15 profile photos (4096x4096) + 15 portrait photos (16:9 aspect ratio).</p>
                                 </div>
                                 <div class="paybutton-container">
-                                    <form action="https://buy.stripe.com/eVa3cz3H50jAe3KcMR" method="POST">
+                                    <form action="checkout-executive.php" method="POST">
                                         <button class="paybutton" type="submit">Select</button>
                                     </form>
                                 </div>
                             </div>
                         </div>   
-                        
                     </div>
                     <!--
                     <div class="checkout-testimonial">
