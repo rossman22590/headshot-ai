@@ -61,6 +61,15 @@
   });
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta property=’og:title’ content='Headshot AI'/>
+<meta property=’og:image’ content='images/OG-image.jpg’/>
+<meta property=’og:description’ content='Your perfect headshot is just a click away.'/>
+<meta property=’og:url’ content='https://headshotai.studio'/>
+<meta property='og:image:width' content='1200' />
+<meta property='og:image:height' content='627' />
+<!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+<meta property="og:type" content='website'/>
 </head>
 <body>
 
