@@ -1120,6 +1120,7 @@ footer {
     align-items: center;
     display: flex;
     cursor: pointer;
+  text-decoration: none;
 }
 
 .paybutton:hover {
@@ -1149,6 +1150,7 @@ footer {
     align-items: center;
     display: flex;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .paybutton-middle:hover {
