@@ -74,7 +74,7 @@
     <div class=submit-logo>
           <img src="images/logo.png">
       </div> 
-    <h4 style="text-align: center; font-weight: 800"> Thanks for your purchase! The rest will be quick! </h4> 
+    <h4 style="text-align: center; font-weight: 800"> Welcome friend! Upload your photos here. </h4> 
           <br><br> 
         <form action="submit.php" method="POST" enctype="multipart/form-data">
 
