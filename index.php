@@ -100,7 +100,7 @@
           <div class="testimonial-card-text">
             <p class="testimonial-name">Julia Lee</p> 
             <p class="testimonial-title">Graduate Engineer</p>  
-            <p class="testimonial-text">"This AI-generated headshot service delivered stunning, professional results while saving time and money. It's an impressive and inspiring example of the capabilities of AI in photography."</p>
+            <p class="testimonial-text">"This AI headshot service delivered stunning, professional results while saving time and money. It's an impressive example of the capabilities of AI in photography."</p>
           </div>  
           <div class="testimonial-card-image">
               <img src="images/testimonial-julia.png" class="testimonial-image">
