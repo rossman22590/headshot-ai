@@ -58,7 +58,7 @@
                                     <p>7 professional  profile photos in small (512x512) format.</p>
                                 </div>
                                 <div class="paybutton-container">
-                                <a href="https://buy.stripe.com/eVa3cz3H50jAe3KcMR" class="paybutton">Select</a>
+                                <a href="https://buy.stripe.com/eVaaF1a5t4zQ8Jq4gj" class="paybutton">Select</a>
                                 </div>
                             </div>
                             <div class="packages-section" >
@@ -78,7 +78,7 @@
                                     <p>30 professional shots @ 4K resolution — 15 profile photos (4096x4096) + 15 portrait photos (16:9 aspect ratio).</p>
                                 </div>
                                 <div class="paybutton-container">
-                                <a href="https://buy.stripe.com/eVaaF1a5t4zQ8Jq4gj" class="paybutton">Select</a>
+                                <a href="https://buy.stripe.com/eVa3cz3H50jAe3KcMR" class="paybutton">Select</a>
                                 </div>
                             </div>
                         </div>   
