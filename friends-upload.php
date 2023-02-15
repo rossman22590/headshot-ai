@@ -63,7 +63,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta property=’og:title’ content='Headshot AI'/>
-<meta property=’og:image’ content='https://i.imgur.com/cdgmmQH.jpg’/>
+<meta property=’og:image’ content='https://i.imgur.com/cdgmmQH.jpg'/>
 <meta property=’og:description’ content='Your perfect headshot is just a click away.'/>
 <meta property=’og:url’ content='https://headshotai.studio'/>
 <meta property='og:image:width' content='1200' />
