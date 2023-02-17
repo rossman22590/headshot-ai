@@ -6,37 +6,35 @@
 
      <div class="hero-left">
         <div class="hero-text-container">
-          <p class="hero-text">Look Professional,  </p>
-          <p class="hero-text-underline">Feel Confident.</p>
+          <p class="hero-text">Look Professional,</p>
+          <p class="hero-text-underline">Grow Your Career.</p>
         </div>
 
         <div class="hero-subtext-container">
-            <p class="hero-subtext">Your perfect headshot is just a click away.</p>
+            <p class="hero-subtext">Make your first impression count.</p>
         </div>
 
-        <div class="welcome-section">
-          <p>Your career deserves attention and respect. Make the perfect first impression count.  
-          </p>
-        </div>
 
+        <!--
         <div class="hero-list-container">
           <div class="hero-list-item">
             <svg class="tick-icon" viewBox="0 0 20 20" fill="green"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-            <span class="list-text">14+ high-quality photos at 4K resolution (4096x4096), perfect for LinkedIn.</span>
+            <span class="list-text">14+ 4K high-resolution photos — perfect for LinkedIn.</span>
           </div>
           <div class="hero-list-item">
             <svg class="tick-icon" viewBox="0 0 20 20" fill="green"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-            <span class="list-text">Each photo is unique. 5 minute process. 24 hour turnaround.</span>
+            <span class="list-text"></span>
           </div>
           <div class="hero-list-item">
             <svg class="tick-icon" viewBox="0 0 20 20" fill="green"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
             <span class="list-text"><a href="#faq-header" style="color: #4C4C4C;">Your photos are 100% safe with us.</a></span>
           </div>
         </div>
-
+        -->
         <div class="button-container">
-          <a href="checkout.php" class="button">Get your headshot now.</a>
+          <a href="checkout.php" class="button">Get your headshots now.</a>
         </div>
+        <p class="button-subtext"> 2-minute process </p>
     </div>
   <div class="hero-right">
     <img src="images/hero-image.jpg" class="hero-image">
@@ -47,30 +45,19 @@
 
 <!-- body section -->
 
-
 <div class="package-section">
   <div class="package-container">
     <div class="package-header">
-    <h3>Get professional photos with one click.</h3>
-    <p> Why waste countless hours and money on a photoshoot when you can get it all done in just under 5 minutes.</p>
+    <h3>Increase your chances of getting that dream job.</h3>
+    <p>Become a professional others want to work with. </p>
     </div>
     <div class="package-image">
-      <img src="images/process.jpg" class="process-image">
+      <img src="images/solution.jpg" class="process-image">
     </div>
   </div>
 </div>
 
-<div class="cta-section">
-  <div class="cta-container">
-    <div class="cta-header">
-      <p>Try it out now</p>
-      <h3>Make a <span class="cta-underline">lasting first impression</span> with the perfect headshots.</h3>
-    </div>
-    <div class="button-cta-container">
-      <a href="checkout.php" class="button-cta">Get your headshots now</a>
-   </div>
-  </div>
-</div>
+<!-- features -->
 
 <!-- testimonials section -->
 
@@ -78,7 +65,7 @@
   <div class="testimonials-container">
     <div class="testimonials-header">
     <!-- <h3><span class="testimonial-underline-first">1000+</span> professional headshots already created for <span class="testimonial-underline-second">over 100</span> happy clients.</h3> -->
-    <h3> Professionals left satisfied </h3>
+    <h3> Other professionals left satisfied </h3>
     <p>Look at what other professionals are saying about us: </p>
     <p style= margin-top:0px;> -> -> </p>
     </div>
@@ -146,7 +133,29 @@
 </div>
 -->
 
+<div class="package-section">
+  <div class="package-container">
+    <div class="package-header">
+    <h3>Become a professional others want to work with.</h3>
+    <p> Why waste countless hours and money on a photoshoot when you can get it all done in just under 2 minutes.</p>
+    </div>
+    <div class="package-image">
+      <img src="images/process.jpg" class="process-image">
+    </div>
+  </div>
+</div>
 
+<div class="cta-section">
+  <div class="cta-container">
+    <div class="cta-header">
+      <p>Try it out now</p>
+      <h3>Make a <span class="cta-underline">lasting first impression</span> with the perfect headshots.</h3>
+    </div>
+    <div class="button-cta-container">
+      <a href="checkout.php" class="button-cta">Get your headshots now</a>
+   </div>
+  </div>
+</div>
 
 <div class="faq-section">
   <div class="faq-container">

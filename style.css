@@ -97,7 +97,7 @@ padding-top: 20px;
 }
 
 .hero-container {
-  max-width: 1200px;
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -141,7 +141,7 @@ padding-top: 20px;
   height: 10px;
   background-color: #FFE381;
   z-index: -1;
-  width: 320px;
+  width: 400px;
 }
 
 .hero-subtext-container {
@@ -151,51 +151,14 @@ padding-top: 20px;
 .hero-subtext {
     font-weight: 600;
     color: #374151;
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: -0.5px;
-}
-
-.welcome-section {
-  width: 100%;
-  margin-top: 16px;
-  display: block;
-  color: #4C4C4C;
-  font-weight: 500;
-  letter-spacing: -0.5px;
-}
-
-.welcome-section p {
-  line-height: 25px;
-  margin-top: 8px;
-}
-
-.hero-list-container {
-  margin-top: 10px;
-  font-size: 15px;
-  color: #4C4C4C;
-}
-
-.hero-list-item {
-  display: flex;
-  align-items: center;
-  margin-top: 5px;
-  font-weight: 500;
-}
-
-.tick-icon {
-  display: block;
-  margin-right: 5px;
-  width: 16px;
-  min-width: 16px;
-}
-
-.list-text {
-  line-height: 20px;
+    margin-top: 20px
 }
 
 .button-container {
   display: flex;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .button {
@@ -216,6 +179,12 @@ padding-top: 20px;
   background-color: #0177ED;
 }
 
+.button-subtext {
+  margin-top: 5px; 
+  margin-left: 80px; 
+  font-size: 13px; 
+}
+
 .hero-right {
   width: 50%;
   display: block;
@@ -223,7 +192,7 @@ padding-top: 20px;
 
 .hero-right img {
   display: block;
-  max-width: 500px;
+  max-width: 400px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -233,7 +202,7 @@ padding-top: 20px;
 /*testimonials*/
 
 .testimonials-section {
-  padding-top: 64px;
+  padding-top: 32px;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 0px;
@@ -420,6 +389,7 @@ padding-top: 20px;
 
 .package-section {
   padding: 2rem 4%;
+  margin-top: 32px;
 }
 
 .package-container {
@@ -472,7 +442,6 @@ padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  margin-top: 32px;
 }
 
 .package-image {
@@ -626,7 +595,7 @@ padding-top: 20px;
   height: 8px;
   background-color: #FFE381;
   z-index: -1;
-  width: 450px;
+  width: 420px;
 }
 
 /*footer*/
@@ -841,6 +810,14 @@ footer {
   
 }
 
+@media (min-width : 768px) and (max-width: 917px) {
+
+  .hero-text-underline::before {
+   display: none;
+  }
+
+}
+
 @media (min-width: 768px) and (max-width: 1280px) {
   
   .hero-left {
@@ -921,7 +898,7 @@ footer {
   left: 50%;
   right: 50%;
   transform: translate(-50%, 0);
-  width: 350px;
+  width: 410px;
 }
 
 .hero {
@@ -949,6 +926,10 @@ footer {
   text-align: center;
   margin: auto;
   display: grid;
+}
+
+.button-subtext {
+  margin-left: 0px;
 }
 
 .contact-container {
@@ -982,6 +963,11 @@ footer {
   align-items: center;
   justify-content: center;
   display: flex;
+  background-image: url(images/checkout-background.jpg);
+  background-size: contain;
+  background-position: 50%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .checkout-home {
@@ -1096,6 +1082,20 @@ footer {
   justify-content: flex-end;
   grid-column: span 2/span 2;
   display: flex;
+}
+
+.paybutton-container a {
+  text-decoration: none;
+  --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+  --tw-border-opacity: 1;
+    border-color: rgba(209,213,219,var(--tw-border-opacity));
+    border-width: 1px;
+    border-radius: 0.375rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
 }
 
 .paybutton {
