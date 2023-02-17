@@ -58,7 +58,7 @@
         <div class="whole-checkout">
             <div class="whole-container">
                 <div class="upper-box">
-                        <h3>Select a package</h3>
+                        <h3>Select your package</h3>
                         <h4 class="package-subtext">Your career deserves attention and respect. One-time payment only.</h4>
                         <h4 class="package-subtext">Get professional photos at an affordable price.</h4>
                         <div class="packages">
