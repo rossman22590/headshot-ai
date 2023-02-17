@@ -47,7 +47,30 @@
 
 <!-- body section -->
 
-<
+
+<div class="package-section">
+  <div class="package-container">
+    <div class="package-header">
+    <h3>Get professional photos with one click.</h3>
+    <p> Why waste countless hours and money on a photoshoot when you can get it all done in just under 5 minutes.</p>
+    </div>
+    <div class="package-image">
+      <img src="images/process.jpg" class="process-image">
+    </div>
+  </div>
+</div>
+
+<div class="cta-section">
+  <div class="cta-container">
+    <div class="cta-header">
+      <p>Try it out now</p>
+      <h3>Make a <span class="cta-underline">lasting first impression</span> with the perfect headshots.</h3>
+    </div>
+    <div class="button-cta-container">
+      <a href="checkout.php" class="button-cta">Get your headshots now</a>
+   </div>
+  </div>
+</div>
 
 <!-- testimonials section -->
 
@@ -123,29 +146,6 @@
 </div>
 -->
 
-<div class="package-section">
-  <div class="package-container">
-    <div class="package-header">
-    <h3>Get professional photos with one click.</h3>
-    <p> Why waste countless hours and money on a photoshoot when you can get it all done in just under 5 minutes.</p>
-    </div>
-    <div class="package-image">
-      <img src="images/process.jpg" class="process-image">
-    </div>
-  </div>
-</div>
-
-<div class="cta-section">
-  <div class="cta-container">
-    <div class="cta-header">
-      <p>Try it out now</p>
-      <h3>Make a <span class="cta-underline">lasting first impression</span> with the perfect headshots.</h3>
-    </div>
-    <div class="button-cta-container">
-      <a href="checkout.php" class="button-cta">Get your headshots now</a>
-   </div>
-  </div>
-</div>
 
 
 <div class="faq-section">
