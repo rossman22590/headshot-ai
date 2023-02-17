@@ -6,8 +6,8 @@
 
      <div class="hero-left">
         <div class="hero-text-container">
-          <p class="hero-text-underline">Look Professional  </p>
-          <p class="hero-text">Feel Confident in Every Photo.</p>
+          <p class="hero-text">Look Professional,  </p>
+          <p class="hero-text-underline">Feel Confident.</p>
         </div>
 
         <div class="hero-subtext-container">
