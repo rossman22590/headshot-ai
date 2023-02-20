@@ -97,7 +97,7 @@
             <!-- name form submission fields here -->
             <label for="email">Email:</label>
             <input type="text" name="email" required>
-            <p style="margin-top: 10px; color: grey;"> Please enter the email you used to purchase the service. </p>
+            <p style="margin-top: 10px; color: grey;"> Please enter the email you used to purchase the service. The results will be sent to this email so please check your spam and mark our email as "Not Spam" </p>
 
             <br>
 
@@ -125,7 +125,7 @@
             <?php
             $Msg = "";
             if (isset($_GET['error'])) {
-              echo 'Error: Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 3MB each. 20 or more photos are required.';
+              echo 'Error: Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 5MB each. 20 or more photos are required.';
             }
             if (isset($_GET['success'])) : {
               $hidemydiv = "hide";

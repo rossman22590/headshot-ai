@@ -6,7 +6,7 @@ if(isset($_POST['submit']))
   $allowed = array('jpg', 'jpeg', 'png', 'webp', 'heic');
 
   $minCount = 20;
-  $maxSize = 2097152;
+  $maxSize = 5242880;
   
   $count = 0;
   $uploadedFiles = array();
