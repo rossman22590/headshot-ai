@@ -130,7 +130,7 @@
             if (isset($_GET['success'])) : {
               $hidemydiv = "hide";
             } ?>
-              <p>Your file has been successfully uploaded.<a href="index.php"> <br><br> Click here to go back to the homepage</a>
+              <p>Your file has been successfully uploaded. You headshots will be sent to your email in the next 24 hours, please check your spam folder.<a href="index.php"> <br><br> Click here to go back to the homepage</a>
             </p>
             <br>
             <?php endif; ?>
