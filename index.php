@@ -82,6 +82,7 @@
             <p class="testimonial-name">Landy Hu</p> 
             <p class="testimonial-title">Nurse</p>  
             <p class="testimonial-text">"This product helped me create a LinkedIn profile picture without having to go to a professional photographer. Very impressive!"</p>
+            <br>
           </div>  
           <div class="testimonial-card-image">
               <img src="images/testimonial1.jpeg" class="testimonial-image">
@@ -93,6 +94,7 @@
             <p class="testimonial-name">Jessica Then</p> 
             <p class="testimonial-title">Training Intellectual Property Lawyer</p>  
             <p class="testimonial-text">"It was easy to use and the final curated images were top-quality! Highly recommend for anyone in need of a professional headshot."</p>
+            <br>
           </div>  
           <div class="testimonial-card-image">
               <img src="images/testimonial-jess.jpg" class="testimonial-image">
@@ -118,6 +120,29 @@
           </div>  
           <div class="testimonial-card-image">
               <img src="images/testimonial-julia.png" class="testimonial-image">
+          </div>
+          </div>
+
+          <div class="testimonial-card">
+          <div class="testimonial-card-text">
+            <p class="testimonial-name">Daniel Lee</p> 
+            <p class="testimonial-title">Business Developer, Amazon</p>  
+            <p class="testimonial-text">"Faster and cheaper than getting one taken professionally. Plus, considering how much a LinkedIn DP increases my chances of employment, this is a no-brainer."</p>
+          </div>  
+          <div class="testimonial-card-image">
+              <img src="images/daniel-testimonial.jpeg" class="testimonial-image">
+          </div>
+          </div>
+
+          <div class="testimonial-card">
+          <div class="testimonial-card-text">
+            <p class="testimonial-name">Elton Tay</p> 
+            <p class="testimonial-title">Web3 Developer</p>  
+            <p class="testimonial-text">"As a person who seldom take photos, I am happy to see what an AI can achieve."</p>
+            <br><br>
+          </div>  
+          <div class="testimonial-card-image">
+              <img src="images/elton-testimonial.jpg" class="testimonial-image">
           </div>
           </div>
 
