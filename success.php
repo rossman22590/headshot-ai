@@ -114,7 +114,7 @@
             </select>
 
             <br><br>
-            <label for="photos">Upload 20 photos:</label>
+            <label for="photos">Upload 20 photos - Follow the Upload Guideline below carefully:</label>
             <input type="file" id="photos" name="userfile[]" multiple accept="image/jpeg, image/jpg, image/png, image/webp, image/heic" required>
             <div id="preview"></div>
             <div>
