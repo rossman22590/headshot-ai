@@ -16,7 +16,7 @@
         
         else
         {
-            $to = "brian@headshotai.studio";
+            $to = "support@headshotai.studio";
 
             if(mail($to, $subject, $message, $email, $name))
             {
