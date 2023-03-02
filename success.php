@@ -87,7 +87,20 @@
     <h4 style="text-align: center; font-weight: 800"> Thanks for your purchase! The rest will be quick! </h4> 
           <br><br> 
         <form action="submit.php" method="POST" enctype="multipart/form-data">
-
+          <div>
+          <?php
+            $Msg = "";
+            if (isset($_GET['error'])) {
+              echo 'Error: Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 5MB each. 20 or more photos are required.';
+            }
+            if (isset($_GET['success'])) : {
+              $hidemydiv = "hide";
+            } ?>
+              <p>Your file has been successfully uploaded. You headshots will be sent to your email in the next 72 hours, please check your spam folder.<a href="index.php"> <br><br> Click here to go back to the homepage</a>
+            </p>
+            <br>
+            <?php endif; ?>
+          </div>
           <div class="form-group">
           <!-- retrieve stripe payment id-->
           <input type="hidden" name="payment_id" value="<?php echo $_GET['payment_id']; ?>">
