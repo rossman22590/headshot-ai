@@ -46,7 +46,7 @@
   <div id="header">
     <div class="header-container">
       <div class="logo">
-        <a href="index.php">
+        <a href="index.webp">
           <img src="images/logo.png" alt="Home Page">
       </div>
       <div class="navigation">

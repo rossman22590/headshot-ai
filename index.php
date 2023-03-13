@@ -108,7 +108,7 @@
             <p class="testimonial-text">"It was such a quick and easy process, and it even changed my clothes to make me look even more professional! Loved the final outcome."</p>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-yiwen.png" class="testimonial-image">
+              <img src="images/testimonial-yiwen.webp" class="testimonial-image">
           </div>
           </div>
 
@@ -119,7 +119,7 @@
             <p class="testimonial-text">"This AI headshot service delivered stunning, professional results while saving time and money. It's an impressive example of the capabilities of AI in photography."</p>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-julia.png" class="testimonial-image">
+              <img src="images/testimonial-julia.webp" class="testimonial-image">
           </div>
           </div>
 
@@ -165,7 +165,7 @@
     <p> Why waste countless hours and money on a photoshoot when you can get it all done in just under 2 minutes.</p>
     </div>
     <div class="package-image">
-      <img src="images/process.jpg" class="process-image">
+      <img src="images/process.webp" class="process-image">
     </div>
   </div>
 </div>
