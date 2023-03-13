@@ -52,7 +52,7 @@
     <p>Become a professional others want to work with. </p>
     </div>
     <div class="package-image">
-      <img src="images/solution.jpg" class="process-image">
+      <img src="images/solution.webp" class="process-image">
     </div>
   </div>
 </div>
