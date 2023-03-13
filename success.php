@@ -12,6 +12,7 @@
 <meta property='og:image:height' content='627' />
 <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
 <meta property="og:type" content='website'/>
+<meta name= “robots” content=noindex, nofollow”>
 
   <title>Headshot AI - Form Submission</title>
   <link rel="stylesheet" href="style.css">

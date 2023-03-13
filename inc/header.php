@@ -9,7 +9,8 @@
 <meta property='og:image:height' content="627" />
 <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
 <meta property="og:type" content='website'/>
-  <title>Headshot AI Generator for Business - Corporate Professional Photo Studio Quality</title>
+<meta name="description" conten="Leave the perfect first impression with AI business headshots. Perfect for your LinkedIn or CV. Level up your career now. ">
+  <title>AI Business Headshot Generator - Studio Quality</title>
   <link rel="icon" href="images/favicon.png" type="image/png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
