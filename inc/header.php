@@ -10,6 +10,20 @@
 <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
 <meta property="og:type" content='website'/>
 <meta name="description" conten="Leave the perfect first impression with professional AI headshots. Perfect for your LinkedIn or CV. Level up your career now. ">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11116963981"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11116963981');
+</script>
+<!-- Event snippet for Website traffic conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-11116963981/6RbgCJP1gZIYEI3R_bQp'});
+</script>
+
   <title>Professional AI Headshot Generator - Studio Quality</title>
   <link rel="icon" href="images/favicon.png" type="image/png">
   <link rel="stylesheet" href="style.css">
