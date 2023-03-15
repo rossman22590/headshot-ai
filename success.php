@@ -134,7 +134,7 @@
             <div>
               <br>
               <div class="guideline-image">
-                <img src="images/guideline.jpg">
+                <img src="images/guideline.webp">
               </div>
             <?php
             $Msg = "";
