@@ -13,7 +13,6 @@
     <p class="footer-segment-heading"> Links</p>
     <div class="footer-links">
       <a href="checkout.php">Buy Now</a>
-      <a href="https://n-a-22.getrewardful.com/signup?_gl=1*1o0db4y*_ga*OTA2NTE5NTcxLjE2NzYzOTUyNDc.*_ga_YJYFH7ZS27*MTY3NjQ1MDQ5OC4zLjEuMTY3NjQ1NTM3NC4wLjAuMA..&_ga=2.58331498.1359635344.1676395248-906519571.1676395247">Affiliate Programme</a>
       <a href="contact-us.php">Contact Us</a>
       <a href="contact-us.php">Corporate Packages</a>
     </div>
