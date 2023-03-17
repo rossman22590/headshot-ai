@@ -24,7 +24,7 @@
   gtag('event', 'conversion', {'send_to': 'AW-11116963981/6RbgCJP1gZIYEI3R_bQp'});
 </script>
 
-  <title>Professional AI Headshot Generator - Studio Quality</title>
+  <title>Professional AI Headshot Generator - Studio Quality, Perfect for LinkedIn/CV</title>
   <link rel="icon" href="images/favicon.png" type="image/png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
