@@ -89,6 +89,20 @@
           </div>
           </div>
 
+
+          <div class="testimonial-card">
+          <div class="testimonial-card-text">
+            <p class="testimonial-name">Blake Baumann</p> 
+            <p class="testimonial-title">Public Relations Professional</p>  
+            <p class="testimonial-text">"I have been needing new headshots for years now... Brian was able to produce these amazing AI headshots, walking me through each step along the way."</p>
+            <br>
+          </div>  
+          <div class="testimonial-card-image">
+              <img src="images/testimonial-blake.webp" class="testimonial-image">
+          </div>
+          </div>
+          
+
           <div class="testimonial-card">
           <div class="testimonial-card-text">
             <p class="testimonial-name">Jessica Then</p> 
