@@ -13,6 +13,8 @@
 <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
 <meta property="og:type" content='website'/>
 <meta name="description" conten="Leave the perfect first impression with professional AI headshots. Perfect for your LinkedIn or CV. Level up your career now. ">
+<link rel="alternate" href="https://headshotai.studio" hreflang="en" />
+<link rel="alternate" href="https://headshotai.studio/kr/" hreflang="ko" />
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11116963981"></script>
 <script>
