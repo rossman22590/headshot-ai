@@ -106,7 +106,7 @@
           <?php
             $Msg = "";
             if (isset($_GET['error'])) {
-              echo 'Error: Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 5MB each. 20 or more photos are required.';
+              echo 'Error: Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 10MB each. 20 or more photos are required.';
             }
             if (isset($_GET['success'])) : {
               $hidemydiv = "hide";
@@ -153,7 +153,7 @@
             <?php
             $Msg = "";
             if (isset($_GET['error'])) {
-              echo 'Error: Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 5MB each. 20 or more photos are required.';
+              echo 'Error: Only .png, .jpeg, .jpg, .webp, and .heic files are allowed under the size of 10MB each. 20 or more photos are required.';
             }
             if (isset($_GET['success'])) : {
               $hidemydiv = "hide";
