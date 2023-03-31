@@ -144,6 +144,7 @@
             <br><br>
             <label for="photos">Upload 20 photos - Follow the Upload Guideline below carefully:</label>
             <input type="file" id="photos" name="userfile[]" multiple accept="image/jpeg, image/jpg, image/png, image/webp, image/heic" required>
+            <p style="margin-top: 10px; color: grey;"> Uploads may take a while where image files are large, if you continue to face issues uploading, please contact us at support@headshotai.studio. </p>
             <div id="preview"></div>
             <div>
               <br>
