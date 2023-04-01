@@ -55,7 +55,7 @@
   <div id="header">
     <div class="header-container">
       <div class="logo">
-        <a href="index.webp">
+        <a href="https://headshotai.studio">
           <img src="images/logo.png" alt="Home Page">
       </div>
       <div class="navigation">
