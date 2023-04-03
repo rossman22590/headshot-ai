@@ -898,7 +898,7 @@ footer {
   left: 50%;
   right: 50%;
   transform: translate(-50%, 0);
-  width: 410px;
+  width: 400px;
 }
 
 .hero {
@@ -941,6 +941,17 @@ footer {
   display: none;
 }
 
+}
+
+@media (max-width: 480px) {
+
+  .hero-text-underline::before {
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0);
+    width: 200px;
+  }
+  
 }
 
 /*checkout*/
