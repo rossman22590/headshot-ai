@@ -57,7 +57,7 @@
   <div id="header">
     <div class="header-container">
       <div class="logo">
-        <a href="index.html">
+        <a href="/">
           <img src="images/logo.png" alt="Home Page">
       </div>
       <div class="navigation">

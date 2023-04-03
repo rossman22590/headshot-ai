@@ -1,7 +1,7 @@
 <footer>
   <div class="footer-wrapper">
   <div class="footer-logo">  
-    <a href="index.html"> <img src="images/footer-logo.png" alt="Home Page"></a>
+    <a href="/"> <img src="images/footer-logo.png" alt="Home Page"></a>
   </div>
   
 <div class="footer-text">
