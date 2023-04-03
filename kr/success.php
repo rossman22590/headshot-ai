@@ -6,7 +6,7 @@
 
 <meta property="og:title" content="헤드샷 AI - 전문적인 인공지능 헤드샷 생성기"/>
 <meta property="og:url" content="https://headshotai.studio"/>
-<meta property="og:image" content="https://i.imgur.com/cdgmmQH.jpg" />
+<meta property="og:image" content="https://i.imgur.com/JTSCbpq.png" />
 <meta property="og:description" content="완벽한 헤드샷이 단 한 번의 클릭으로 가능합니다."/>
 <meta property='og:image:width' content="1200" />
 <meta property='og:image:height' content="627" />
