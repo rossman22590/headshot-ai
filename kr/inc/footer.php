@@ -29,7 +29,7 @@
 
   <div class="footer-copyright">
   <div class="language-switcher">
-        <select id="language-dropdown"> 언어
+        <select id="language-dropdown" label="언어">언어
           <option value="en">English</option>
           <option value="kr">한국어</option>
         </select>
