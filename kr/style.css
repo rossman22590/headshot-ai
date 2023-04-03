@@ -798,6 +798,15 @@ footer {
   margin-bottom: 5px;
 }
 
+.language-switcher {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#language-dropdown {
+  padding: 5px;
+  font-size: 14px;
+}
 
 /*media*/
 
