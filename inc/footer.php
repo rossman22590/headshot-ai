@@ -23,18 +23,18 @@
     <div class="footer-links">
       <a href="termsandconditions.php">Terms and Conditions</a>
       <a href="privacypolicy.php">Privacy Policy</a>
-      <div class="language-switcher">
-        <select id="language-dropdown">
-          <option value="en">English</option>
-          <option value="kr">한국어</option>
-        </select>
-      </div>
+      
     </div>
   </div>
 </div>
 
   <div class="footer-copyright">
-    <p>Copyright 2023, All Rights Reserved by Brian Gi</p>
+  <div class="language-switcher">
+        <select id="language-dropdown">
+          <option value="en">English</option>
+          <option value="kr">한국어</option>
+        </select>
+      </div>
   </div>
 
 
