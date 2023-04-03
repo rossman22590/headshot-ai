@@ -803,11 +803,14 @@ footer {
   background-color: #374151;
   color: rgb(219, 219, 219);
   margin-top: 10px;
+  font-weight: 700;
 }
 
 #language-dropdown {
   padding: 5px;
   font-size: 14px;
+  font-weight: 700;
+  font-size: 12px;
 }
 
 /*media*/
