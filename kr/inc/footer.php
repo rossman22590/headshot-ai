@@ -23,15 +23,45 @@
     <div class="footer-links">
       <a href="termsandconditions.php">이용 약관</a>
       <a href="privacypolicy.php">개인정보 처리방침</a>
+      <div class="language-switcher">
+        <select id="language-dropdown">
+          <option value="en">English</option>
+          <option value="kr">한국어</option>
+        </select>
+      </div>
     </div>
   </div>
 </div>
 
   <div class="footer-copyright">
+    <p>Copyright 2023, All Rights Reserved by Brian Gi</p>
   </div>
 
 
 <div class="footer-products">
 
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const languageDropdown = document.getElementById('language-dropdown');
+
+      // Set the initial value based on the current URL
+      if (window.location.pathname.includes('/kr')) {
+        languageDropdown.value = 'kr';
+      } else {
+        languageDropdown.value = 'en';
+      }
+
+      // Add an event listener to handle language change
+      languageDropdown.addEventListener('change', function () {
+        const selectedLanguage = languageDropdown.value;
+
+        if (selectedLanguage === 'kr') {
+          window.location.href = 'https://headshotai.studio/kr';
+        } else if (selectedLanguage === 'en') {
+          window.location.href = 'https://headshotai.studio';
+        }
+      });
+    });
+  </script>
 </footer>
