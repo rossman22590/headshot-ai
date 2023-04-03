@@ -6,8 +6,8 @@
 
      <div class="hero-left">
         <div class="hero-text-container">
-          <p class="hero-text">전문가처럼 보이고,</p>
-          <p class="hero-text-underline">커리어를 키우세요.</p>
+          <p class="hero-text" style="font-family:'Inter', Segoe UI, sans serif">전문가처럼 보이고,</p>
+          <p class="hero-text-underline" style="font-family:'Inter', Segoe UI, sans serif">커리어를 키우세요.</p>
         </div>
 
         <div class="hero-subtext-container">
