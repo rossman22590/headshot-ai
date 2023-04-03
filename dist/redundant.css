@@ -1135,17 +1135,6 @@ footer {
 
 /*checkout*/
 
-.checkout-page {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  background-image: url(/checkout-background.jpg);
-  background-size: contain;
-  background-position: 50%;
-  height: 100vh;
-  width: 100vw;
-}
-
 .checkout-home {
   width: 100%;
   margin: auto;
