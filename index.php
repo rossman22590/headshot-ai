@@ -157,7 +157,7 @@
             <br><br>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/elton-testimonial.jpg" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Developer">
+              <img src="images/elton-testimonial.jpg" class="testimonial-image" alt="Business AI Headshot Testimonial Review Developer">
           </div>
           </div>
 
