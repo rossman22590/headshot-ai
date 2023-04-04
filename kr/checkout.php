@@ -80,7 +80,7 @@
                                     <p>소형(512x512) 형식의 전문적인 프로필 사진 7장.</p>
                                 </div>
                                 <div class="paybutton-container">
-                                <a href="https://buy.stripe.com/eVaaF1a5t4zQ8Jq4gj" class="paybutton">선택하기</a>
+                                <a href="https://buy.stripe.com/eVafZl2D1giyf7O28h" class="paybutton">선택하기</a>
                                 </div>
                             </div>
                             <div class="packages-section" >
@@ -90,7 +90,7 @@
                                     <p>전문가용 사진 14장 (4K UHD) - 프로필 사진 7장(4096x4096) + 인물 사진 7장(16:9 화면비율).</p>
                                 </div>
                                 <div class="paybutton-container">
-                                <a href="https://buy.stripe.com/cN27sP3H5eaq1gY4gk" class="paybutton-middle">선택하기</a>
+                                <a href="https://buy.stripe.com/6oEaF11yX0jA1gY28g" class="paybutton-middle">선택하기</a>
                                 </div>
                             </div>
                             <div class="packages-section-corporate">
@@ -100,7 +100,7 @@
                                     <p>전문가용 사진 30장 (4K UHD) - 프로필 사진 15장(4096x4096) + 인물 사진 15장(16:9 화면비율).</p>
                                 </div>
                                 <div class="paybutton-container">
-                                <a href="https://buy.stripe.com/eVa3cz3H50jAe3KcMR" class="paybutton">선택하기</a>
+                                <a href="https://buy.stripe.com/28odRd2D1d6m8Jq3cj" class="paybutton">선택하기</a>
                                 </div>
                             </div>
                         </div>   
