@@ -52,7 +52,7 @@
     <p>Become a professional others want to work with. </p>
     </div>
     <div class="package-image">
-      <img src="images/solution.webp" class="process-image">
+      <img src="images/solution.webp" class="process-image" width="2000" height="1000" alt="AI Headshots solution">
     </div>
   </div>
 </div>
@@ -86,7 +86,7 @@
             <br>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial1.jpeg" class="testimonial-image">
+              <img src="images/testimonial1.jpeg" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Nurse">
           </div>
           </div>
 
@@ -99,7 +99,7 @@
             <br>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-blake.webp" class="testimonial-image">
+              <img src="images/testimonial-blake.webp" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Marketer">
           </div>
           </div>
           
@@ -112,7 +112,7 @@
             <br>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-jess.jpg" class="testimonial-image">
+              <img src="images/testimonial-jess.jpg" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Lawyer">
           </div>
           </div>
 
@@ -123,7 +123,7 @@
             <p class="testimonial-text">"It was such a quick and easy process, and it even changed my clothes to make me look even more professional! Loved the final outcome."</p>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-yiwen.webp" class="testimonial-image">
+              <img src="images/testimonial-yiwen.webp" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Insurance">
           </div>
           </div>
 
@@ -134,7 +134,7 @@
             <p class="testimonial-text">"This AI headshot service delivered stunning, professional results while saving time and money. It's an impressive example of the capabilities of AI in photography."</p>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-julia.webp" class="testimonial-image">
+              <img src="images/testimonial-julia.webp" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Engineer">
           </div>
           </div>
 
@@ -145,7 +145,7 @@
             <p class="testimonial-text">"Faster and cheaper than getting one taken professionally. Plus, considering how much a LinkedIn DP increases my chances of employment, this is a no-brainer."</p>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/daniel-testimonial.jpeg" class="testimonial-image">
+              <img src="images/daniel-testimonial.jpeg" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Amazon">
           </div>
           </div>
 
@@ -157,7 +157,7 @@
             <br><br>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/elton-testimonial.jpg" class="testimonial-image">
+              <img src="images/elton-testimonial.jpg" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Developer">
           </div>
           </div>
 
@@ -180,7 +180,7 @@
     <p> Why waste countless hours and money on a photoshoot when you can get it all done in just under 2 minutes.</p>
     </div>
     <div class="package-image">
-      <img src="images/process.webp" class="process-image">
+      <img src="images/process.webp" class="process-image" width="2000" height="1000" alt="AI Headshots process">
     </div>
   </div>
 </div>

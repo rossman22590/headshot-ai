@@ -36,17 +36,6 @@
 <link href="/dist/output.css" rel="stylesheet">
 <meta charset="UTF-8">
 <script src="jquery-3.6.1.min.js"></script>
-<script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
-<script async src='https://r.wdfl.co/rw.js' data-rewardful='50e123'></script>
-<script>
-  rewardful('ready', function() {
-    if(Rewardful.referral) {
-      console.log('Current referral ID: ', Rewardful.referral);
-    } else {
-      console.log('No referral present.');
-    }
-  });
-</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -56,7 +45,7 @@
     <div class="header-container">
       <div class="logo">
         <a href="https://headshotai.studio">
-          <img src="images/logo.png" alt="Home Page">
+          <img src="images/logo.webp" alt="Home Page">
       </div>
       <div class="navigation">
         <div class="nav-dropdown"> 

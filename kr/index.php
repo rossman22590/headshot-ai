@@ -52,7 +52,7 @@
     <p>다른 사람들이 함께 일하고 싶어 하는 전문가가 되세요.</p>
     </div>
     <div class="package-image">
-      <img src="images/solution.webp" class="process-image">
+      <img src="images/solution.webp" class="process-image" width="2000" height="1000" alt="AI Headshots process">
     </div>
   </div>
 </div>
@@ -85,7 +85,7 @@
             <br>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial1.jpeg" class="testimonial-image">
+              <img src="images/testimonial1.jpeg" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Nurse">
           </div>
           </div>
 
@@ -98,7 +98,7 @@
             <br>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-blake.webp" class="testimonial-image">
+              <img src="images/testimonial-blake.webp" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Marketing">
           </div>
           </div>
           
@@ -111,7 +111,7 @@
             <br>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-jess.jpg" class="testimonial-image">
+              <img src="images/testimonial-jess.jpg" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Lawyer">
           </div>
           </div>
 
@@ -122,7 +122,7 @@
             <p class="testimonial-text">"정말 빠르고 쉬운 과정이었으며 옷까지 바꿔줘서 더욱 프로페셔널해 보였어요! 최종 결과물이 정말 마음에 들었어요."</p>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-yiwen.webp" class="testimonial-image">
+              <img src="images/testimonial-yiwen.webp" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Insurance">
           </div>
           </div>
 
@@ -133,7 +133,7 @@
             <p class="testimonial-text">"이 AI 헤드샷 서비스는 시간과 비용을 절약하면서 놀랍고 전문적인 결과물을 제공했습니다. 사진 분야에서 AI의 역량을 보여주는 인상적인 사례입니다."</p>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/testimonial-julia.webp" class="testimonial-image">
+              <img src="images/testimonial-julia.webp" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Engineer">
           </div>
           </div>
 
@@ -144,7 +144,7 @@
             <p class="testimonial-text">"전문적으로 찍는 것보다 더 빠르고 저렴합니다. 게다가 LinkedIn DP를 통해 취업 가능성이 얼마나 높아졌는지 생각해보면 이건 당연한 일입니다."</p>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/daniel-testimonial.jpeg" class="testimonial-image">
+              <img src="images/daniel-testimonial.jpeg" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Amazon">
           </div>
           </div>
 
@@ -156,7 +156,7 @@
             <br><br>
           </div>  
           <div class="testimonial-card-image">
-              <img src="images/elton-testimonial.jpg" class="testimonial-image">
+              <img src="images/elton-testimonial.jpg" class="testimonial-image" width="512" height="512" alt="Business AI Headshot Testimonial Review Developer">
           </div>
           </div>
 
@@ -179,7 +179,7 @@
     <p> 단 2분 만에 모든 작업을 완료할 수 있는데 왜 사진 촬영에 수많은 시간과 비용을 낭비할까요?</p>
     </div>
     <div class="package-image">
-      <img src="images/process.webp" class="process-image">
+      <img src="images/process.webp" class="process-image" width="2000" height="1000" alt="AI Headshots process">
     </div>
   </div>
 </div>
