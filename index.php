@@ -61,6 +61,7 @@
 
 <!-- testimonials section -->
 
+<a href="#reviews"></a>
 <div class="testimonials-section">
   <div class="testimonials-container">
     <div class="testimonials-header">
@@ -196,6 +197,7 @@
   </div>
 </div>
 
+<a href="#faq"></a>
 <div class="faq-section">
   <div class="faq-container">
     
