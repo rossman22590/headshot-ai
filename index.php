@@ -62,7 +62,7 @@
 <!-- testimonials section -->
 
 <a href="#reviews"></a>
-<div class="testimonials-section">
+<div class="testimonials-section" id="reviews">
   <div class="testimonials-container">
     <div class="testimonials-header">
     <!-- <h3><span class="testimonial-underline-first">1000+</span> professional headshots already created for <span class="testimonial-underline-second">over 100</span> happy clients.</h3> -->
@@ -172,8 +172,8 @@
   </div>
 </div>
 -->
-
-<div class="package-section">
+<a href=#how-it-works></a>
+<div class="package-section" id="how-it-works">
   <div class="package-container">
     <div class="package-header">
     <h3>Become a professional others want to work with.</h3>
