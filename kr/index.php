@@ -37,7 +37,7 @@
         <p class="button-subtext"> 2분 소요 </p>
     </div>
   <div class="hero-right">
-    <img src="images/hero-image.jpg" class="hero-image">
+    <img src="images/hero-image.jpg" class="hero-image" width="878" height="1048" alt="Business AI Headshot Before and After">
   </div>
 
 </div>
