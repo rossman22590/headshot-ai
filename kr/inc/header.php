@@ -47,7 +47,7 @@
     <div class="header-container">
       <div class="logo">
         <a href="/">
-          <img src="images/logo.webp" alt="Home Page" width="4008" height="834" alt="Business AI Headshot Logo">
+          <img src="images/logo.webp" alt="Home Page" alt="Business AI Headshot Logo">
       </div>
       <div class="navigation">
         <div class="nav-dropdown"> 
